@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RepRealm: Fitness RPG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1C140E; --panel: #2A2018; --slot: #433322; --frame: #8A6A3E;
+    --frame-dk: #4A3720; --gold: #E8B44C; --parchment: #E7D6B0; --tan: #B89E70;
+    --dim: #7A6648; --hp: #C5332E;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55; max-width: 680px; margin: 0 auto; padding: 48px 18px 72px;
+    color: var(--parchment); background: var(--bg); -webkit-font-smoothing: antialiased; text-align: center;
+  }
+  h1 {
+    font-family: "Anton", "Impact", sans-serif; font-size: 3rem; letter-spacing: 2px;
+    color: var(--gold); margin: 0 0 6px; text-transform: uppercase; text-shadow: 0 3px 0 rgba(0,0,0,0.5);
+  }
+  .tagline { color: var(--tan); font-size: 1.15rem; letter-spacing: 0.5px; margin: 0 0 32px; }
+  .lead {
+    color: var(--parchment); font-size: 1.05rem; max-width: 520px; margin: 0 auto 32px;
+  }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px; text-align: left; margin: 0 auto 36px;
+  }
+  .panel {
+    background: var(--panel); border: 2px solid var(--frame); border-radius: 8px;
+    box-shadow: inset 0 0 0 2px var(--frame-dk); padding: 16px 18px;
+  }
+  .panel h2 {
+    font-family: "Anton", "Impact", sans-serif; font-size: 1rem; letter-spacing: 1px;
+    text-transform: uppercase; color: var(--gold); margin: 0 0 6px;
+  }
+  .panel p { margin: 0; color: var(--tan); font-size: 0.95rem; }
+  a { color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--frame-dk); }
+  a:hover { border-bottom-color: var(--gold); }
+  .links { color: var(--dim); font-size: 0.9rem; margin-top: 8px; }
+  .links a { margin: 0 8px; }
+  .foot { margin-top: 32px; color: var(--dim); font-size: 0.8rem; }
+</style>
+</head>
+<body>
+
+<h1>RepRealm</h1>
+<p class="tagline">Your push-ups are your power.</p>
+
+<p class="lead">
+  A fitness RPG where real push-ups, counted live by your camera, drive your hero through a ladder
+  of bosses. Level up, gear up, and get stronger for real. Nothing is recorded or uploaded; the
+  camera works entirely on your device.
+</p>
+
+<div class="grid">
+  <div class="panel">
+    <h2>Fight with reps</h2>
+    <p>Every push-up lands a blow. Your form is your damage.</p>
+  </div>
+  <div class="panel">
+    <h2>Climb the ladder</h2>
+    <p>Beat bosses across three acts, from the first grunt to the final dragon.</p>
+  </div>
+  <div class="panel">
+    <h2>Grow your hero</h2>
+    <p>Earn gold and gear, level up, and unlock hands-free auto-battle.</p>
+  </div>
+  <div class="panel">
+    <h2>Private by design</h2>
+    <p>On-device camera only. No recording, no tracking, no ads.</p>
+  </div>
+</div>
+
+<p class="links">
+  <a href="support.html">Support</a> &middot;
+  <a href="index.html">Privacy</a>
+</p>
+
+<p class="foot">RepRealm by Chamallo</p>
+
+</body>
+</html>
